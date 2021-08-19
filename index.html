@@ -197,38 +197,37 @@ void main(){               //main function
 
 
         <pre><code class="C">
-// Write A program to perform Arithmetic Operation  
+// Write A program to calculate simple interest using runtime initialization .
 
-#include&lt;stdio.h&gt;    //header file 
-void main(){               //main function 
-int a=7,b=5,c;           //Declaration 
-c = a + b;                          //Operation  
-printf("\n Addition = %d ",c);      //Output Statement  
-c = a - b; 
-printf("\n Subtraction = %d ",c);
-c = a * b; 
-printf("\n Multiplication = %d ",c);
-c = a / b; 
-printf("\n Division = %d ",c);
-c = a % b; 
-printf("\n Remainder = %d ",c);
-}
+#include&lt;stdio.h&gt;   
+void main(){             
+  int p,r,n;          
+  float si;
+    printf("\n Enter Principal Amount : ");
+    scanf("%d",&p);
+    printf("\n Enter Rate of Interest : ");
+    scanf("%d",&r);
+    printf("\n Enter no. of year : ");
+    scanf("%d",&n);
+    si = (p*r*n )/ 100;
+    printf("\n Simple Interest = %f",si); 
+  }
 
 
 <div class="output">                            
- Output :                
-                      
-     Addition =  <span style="background-color: azure;"> 12 </span> 
+ 
+  Output :
 
-     Subtraction =   <span style="background-color: azure;"> 2 </span> 
+  Enter Principal Amount : <span style="background-color: azure;"> 10000 </span> 
 
-     Multiplication =   <span style="background-color: azure;"> 35 </span> 
+  Enter Rate of Interest : <span style="background-color: azure;"> 3 </span> 
 
-     Division =   <span style="background-color: azure;"> 1 </span> 
+  Enter no. of year : <span style="background-color: azure;"> 5 </span> 
 
-     Remainder =   <span style="background-color: azure;"> 2 </span> 
+  Simple Interest = <span style="background-color: azure;"> 1500.000000 </span> 
+ 
 
-  
+
 </div>
 </code></pre>
 
